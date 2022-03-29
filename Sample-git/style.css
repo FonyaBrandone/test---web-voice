@@ -1,0 +1,51 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+::selection {
+    background-color: rgba(255, 192, 203, 0.924);
+    color: white;
+}
+
+h2 {
+    color: rgba(106, 106, 251, 0.918);
+}
+
+input[type=text] {
+    font-size: large;
+    border-radius: 3px;
+    padding: 3px 4px;
+    text-align: right;
+}
+
+input[type=button] {
+    font-size: 1rem;
+    padding: 5px 6px;
+    color: white;
+    background: linear-gradient(rgb(105, 105, 235), rgb(59, 111, 231), rgb(118, 175, 250));
+    border: 0.1px none;
+    cursor: pointer;
+    margin-left: 0.3em;
+}
+
+button {
+    font-size: 1rem;
+    padding: 5px 6px;
+    color: white;
+    border: 0.1px none;
+    cursor: pointer;
+    margin-left: 0.3em;
+    background-color: rgba(0, 0, 255, 0.931);
+}
+
+.video-container {
+    margin-top: 20px;
+    width: 40vw;
+    max-height: 40vh;
+    display: block;
+}
+
+.video-container video {
+    max-width: 100%;
+    max-height: 100%;
+}
